@@ -11,7 +11,7 @@ import org.springframework.beans.factory.InitializingBean;
  * Time: 下午2:59
  * To change this template use File | Settings | File Templates.
  */
-public class ServiceManager implements InitializingBean {
+public class ServiceManager{
     public static ISysObjectKeyService sysObjectKeyService;
     public static ISysUserService sysUserService;
 
@@ -22,9 +22,5 @@ public class ServiceManager implements InitializingBean {
 
     public void setSysObjectKeyService(ISysObjectKeyService sysObjectKeyService) {
         ServiceManager.sysObjectKeyService = sysObjectKeyService;
-    }
-
-    public void afterPropertiesSet() throws Exception {
-
     }
 }
