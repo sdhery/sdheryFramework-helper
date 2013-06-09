@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
  * To change this template use File | Settings | File Templates.
  */
 public class MessageSourceManager {
-    public static String setRegisterReturnMessage(String key, HttpServletRequest request){
+    public static String getMessage(String key, HttpServletRequest request){
         AbstractMessageSource abstractMessageSource = (AbstractMessageSource) SpringContextHolder.getBean("messageSource");
         return abstractMessageSource.getMessage(key, new Object[0], request.getLocale());
     }
