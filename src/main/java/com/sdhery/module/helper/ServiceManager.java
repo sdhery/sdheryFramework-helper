@@ -1,6 +1,7 @@
 package com.sdhery.module.helper;
 
 import com.sdhery.module.core.service.ISysObjectKeyService;
+import com.sdhery.module.tree.service.ISysTreeService;
 import com.sdhery.module.user.service.ISysUserService;
 import org.springframework.beans.factory.InitializingBean;
 
@@ -11,9 +12,10 @@ import org.springframework.beans.factory.InitializingBean;
  * Time: 下午2:59
  * To change this template use File | Settings | File Templates.
  */
-public class ServiceManager{
+public class ServiceManager {
     public static ISysObjectKeyService sysObjectKeyService;
     public static ISysUserService sysUserService;
+    public static ISysTreeService sysTreeService;
 
 
     public void setSysUserService(ISysUserService sysUserService) {
@@ -22,5 +24,9 @@ public class ServiceManager{
 
     public void setSysObjectKeyService(ISysObjectKeyService sysObjectKeyService) {
         ServiceManager.sysObjectKeyService = sysObjectKeyService;
+    }
+
+    public void setSysTreeService(ISysTreeService sysTreeService) {
+        ServiceManager.sysTreeService = sysTreeService;
     }
 }
