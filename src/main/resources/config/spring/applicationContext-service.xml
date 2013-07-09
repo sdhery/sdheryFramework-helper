@@ -17,6 +17,7 @@
         <property name="sysObjectKeyService" ref="sysObjectKeyService"/>
         <property name="sysUserService" ref="sysUserService"/>
         <property name="sysTreeService" ref="sysTreeService"/>
+        <property name="infoArticleService" ref="infoArticleService"/>
     </bean>
 
     <bean class="com.sdhery.module.helper.SpringContextHolder"/>
