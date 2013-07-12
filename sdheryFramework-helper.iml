@@ -5,28 +5,19 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/config/spring/applicationContext-service.xml</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-mybatis.xml</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-service.xml</file>
-          <file>file://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar</file>
           <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-user/1.0.0-SNAPSHOT/sdheryFramework-user-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-myBatis.xml</file>
           <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-user/1.0.0-SNAPSHOT/sdheryFramework-user-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-service.xml</file>
           <file>file://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-user/1.0.0-SNAPSHOT/sdheryFramework-user-1.0.0-SNAPSHOT.jar</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-mybatis.xml</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-mybatis.xml</file>
-        </fileset>
-        <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-info/1.0.0-SNAPSHOT/sdheryFramework-info-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-service.xml</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-info/1.0.0-SNAPSHOT/sdheryFramework-info-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-myBatis.xml</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-mybatis.xml</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-service.xml</file>
-          <file>file://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar</file>
           <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-tree/1.0.0-SNAPSHOT/sdheryFramework-tree-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-myBatis.xml</file>
           <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-tree/1.0.0-SNAPSHOT/sdheryFramework-tree-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-service.xml</file>
           <file>file://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-tree/1.0.0-SNAPSHOT/sdheryFramework-tree-1.0.0-SNAPSHOT.jar</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-user/1.0.0-SNAPSHOT/sdheryFramework-user-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-myBatis.xml</file>
-          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-user/1.0.0-SNAPSHOT/sdheryFramework-user-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-service.xml</file>
-          <file>file://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-user/1.0.0-SNAPSHOT/sdheryFramework-user-1.0.0-SNAPSHOT.jar</file>
-          <file>file://$MODULE_DIR$/src/main/resources/config/spring/applicationContext-service.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-mybatis.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-mysqlId.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-service.xml</file>
+          <file>file://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-core/1.0.0-SNAPSHOT/sdheryFramework-core-1.0.0-SNAPSHOT.jar</file>
+          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-info/1.0.0-SNAPSHOT/sdheryFramework-info-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-myBatis.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-info/1.0.0-SNAPSHOT/sdheryFramework-info-1.0.0-SNAPSHOT.jar!/config/spring/applicationContext-service.xml</file>
+          <file>file://$MAVEN_REPOSITORY$/sdheryFramework/sdheryFramework-info/1.0.0-SNAPSHOT/sdheryFramework-info-1.0.0-SNAPSHOT.jar</file>
         </fileset>
       </configuration>
     </facet>
@@ -91,7 +82,7 @@
     <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.0.b2" level="project" />
     <orderEntry type="library" name="Maven: taglibs:standard:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
-    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-all:1.9.9" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: sdheryFramework:sdheryFramework-core:1.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.11" level="project" />
