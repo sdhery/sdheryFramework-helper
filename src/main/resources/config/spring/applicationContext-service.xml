@@ -19,6 +19,4 @@
         <property name="sysTreeService" ref="sysTreeService"/>
         <property name="infoArticleService" ref="infoArticleService"/>
     </bean>
-
-    <bean class="com.sdhery.module.helper.SpringContextHolder"/>
 </beans>
